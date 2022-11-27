@@ -1,0 +1,55 @@
+*{
+    background: rgb(177, 118, 9);
+    padding: 0px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: antiquewhite;
+    font-weight: lighter;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;   
+    
+}
+.produit1{
+    text-align: center;
+    color: antiquewhite;
+    margin-left: 20px;
+}
+.produit2{
+    color: antiquewhite;
+    margin-left: 20px;
+    text-align: center;
+}
+.produit3{
+    color: antiquewhite;
+    margin-left: 20px;
+    text-align: center;
+}
+img{
+    padding-bottom: 70px;
+    padding-top: 70px; 
+}
+
+.button{
+    background: blanchedalmond;
+    width: 100px;
+    text-transform: capitalize;
+    font-weight: 10px;
+    margin: 3px;
+}
+.produit4{
+    color: antiquewhite;
+    margin-left: 20px;
+    text-align: center;
+}
+
+hr{
+    width: 10%;
+}
