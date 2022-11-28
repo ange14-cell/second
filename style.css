@@ -59,3 +59,40 @@ hr{
     font-family: fantasy;
     font-weight: 10px;
 }
+.box{
+    width: 100px;
+    height: 100px;    
+    position: relative;
+
+}
+.nombreDligne{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background: crimson;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.line{
+    height: 6px;
+    width: 100%;
+    background: #000;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.line:nth-child(1){
+    top: 0px;
+}
+.line:nth-child(2){
+    top: 18px;
+}
+.line:nth-child(3){
+    top: 36px;
+}
+.line:nth-child(){
+    top: 80px;
+}
